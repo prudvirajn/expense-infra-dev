@@ -13,9 +13,10 @@ variable "common_tags" {
     environment = "dev"
   }
 }
-variable "rds_tags" {
+
+variable "app_alb_tags" {
   default = {
-    component = "mysql"
+    component = "app-alb"
   }
 }
 
