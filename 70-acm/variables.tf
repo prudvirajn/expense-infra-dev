@@ -14,11 +14,10 @@ variable "common_tags" {
     }
 }
 
-variable "backend_tags" {
-    default = {
-        Component = "backend"
-    }
-}
 variable "zone_name" {
     default = "prudviraj.online"
+}
+
+variable "zone_id" {
+    default = "Z05949382GRHZL6CDPYX7"
 }
